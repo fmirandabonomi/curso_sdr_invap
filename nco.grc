@@ -43,7 +43,7 @@ blocks:
     orient: QtCore.Qt.Horizontal
     rangeType: float
     start: '0'
-    step: samp_rate/(2**16)
+    step: samp_rate/1024
     stop: samp_rate/2
     value: '0'
     widget: counter_slider
@@ -206,7 +206,23 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [864, 252.0]
+    coordinate: [784, 332.0]
+    rotation: 0
+    state: true
+- name: channels_quantizer_0
+  id: channels_quantizer
+  parameters:
+    affinity: ''
+    alias: ''
+    bits: '16'
+    comment: ''
+    maxoutbuf: '0'
+    minoutbuf: '0'
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [968, 236.0]
     rotation: 0
     state: true
 - name: import_0
@@ -300,7 +316,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1112, 268.0]
+    coordinate: [1128, 300.0]
     rotation: 0
     state: true
 - name: qtgui_time_sink_x_0
@@ -397,7 +413,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1112, 140.0]
+    coordinate: [1128, 140.0]
     rotation: 0
     state: true
 
@@ -407,8 +423,9 @@ connections:
 - [blocks_divide_xx_0, '0', blocks_int_to_float_1, '0']
 - [blocks_int_to_float_1, '0', blocks_transcendental_0, '0']
 - [blocks_throttle_0, '0', blocks_divide_xx_0, '0']
-- [blocks_transcendental_0, '0', qtgui_freq_sink_x_0, '0']
-- [blocks_transcendental_0, '0', qtgui_time_sink_x_0, '0']
+- [blocks_transcendental_0, '0', channels_quantizer_0, '0']
+- [channels_quantizer_0, '0', qtgui_freq_sink_x_0, '0']
+- [channels_quantizer_0, '0', qtgui_time_sink_x_0, '0']
 
 metadata:
   file_format: 1
