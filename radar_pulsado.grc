@@ -510,7 +510,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [392, 400.0]
+    coordinate: [432, 412.0]
     rotation: 0
     state: true
 - name: analog_sig_source_x_0_0
@@ -582,7 +582,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1648, 688.0]
+    coordinate: [1504, 672.0]
     rotation: 0
     state: enabled
 - name: blocks_complex_to_real_0_0
@@ -633,7 +633,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1040, 684.0]
+    coordinate: [1008, 656.0]
     rotation: 0
     state: enabled
 - name: blocks_float_to_complex_0_0
@@ -773,7 +773,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [704, 372.0]
+    coordinate: [704, 368.0]
     rotation: 0
     state: true
 - name: blocks_multiply_xx_1
@@ -808,7 +808,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1536, 1840.0]
+    coordinate: [1456, 1944.0]
     rotation: 0
     state: true
 - name: blocks_repeat_0
@@ -883,7 +883,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [8, 356.0]
+    coordinate: [16, 340.0]
     rotation: 0
     state: true
 - name: blocks_vector_source_x_1
@@ -929,7 +929,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [752, 2064.0]
+    coordinate: [744, 2124.0]
     rotation: 0
     state: true
 - name: channels_channel_model_0
@@ -950,7 +950,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1288, 644.0]
+    coordinate: [1232, 636.0]
     rotation: 0
     state: enabled
 - name: channels_channel_model_0_0
@@ -971,7 +971,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [944, 764.0]
+    coordinate: [976, 796.0]
     rotation: 0
     state: enabled
 - name: fir_filter_xxx_0
@@ -990,7 +990,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [2328, 1452.0]
+    coordinate: [2296, 1460.0]
     rotation: 0
     state: true
 - name: iir_filter_xxx_0
@@ -1047,7 +1047,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1960, 1452.0]
+    coordinate: [1944, 1460.0]
     rotation: 0
     state: true
 - name: import_0
@@ -1208,104 +1208,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1712, 1960.0]
-    rotation: 0
-    state: true
-- name: qtgui_time_sink_x_0_0
-  id: qtgui_time_sink_x
-  parameters:
-    affinity: ''
-    alias: ''
-    alpha1: '1.0'
-    alpha10: '1.0'
-    alpha2: '1.0'
-    alpha3: '1.0'
-    alpha4: '1.0'
-    alpha5: '1.0'
-    alpha6: '1.0'
-    alpha7: '1.0'
-    alpha8: '1.0'
-    alpha9: '1.0'
-    autoscale: 'False'
-    axislabels: 'True'
-    color1: blue
-    color10: dark blue
-    color2: red
-    color3: dark blue
-    color4: black
-    color5: cyan
-    color6: magenta
-    color7: yellow
-    color8: dark red
-    color9: dark green
-    comment: ''
-    ctrlpanel: 'False'
-    entags: 'True'
-    grid: 'False'
-    gui_hint: ''
-    label1: "Correlaci\xF3n (fase)"
-    label10: Signal 10
-    label2: Ref
-    label3: Sincronismo
-    label4: Sincronismo (Q)
-    label5: Signal 5
-    label6: Signal 6
-    label7: Signal 7
-    label8: Signal 8
-    label9: Signal 9
-    legend: 'True'
-    marker1: '-1'
-    marker10: '-1'
-    marker2: '-1'
-    marker3: '-1'
-    marker4: '-1'
-    marker5: '-1'
-    marker6: '-1'
-    marker7: '-1'
-    marker8: '-1'
-    marker9: '-1'
-    name: '""'
-    nconnections: '2'
-    size: int(round(distancia_max*1000/C*samp_rate_rx))
-    srate: samp_rate_rx
-    stemplot: 'False'
-    style1: '1'
-    style10: '1'
-    style2: '1'
-    style3: '1'
-    style4: '1'
-    style5: '1'
-    style6: '1'
-    style7: '1'
-    style8: '1'
-    style9: '1'
-    tr_chan: '1'
-    tr_delay: '0'
-    tr_level: amplitud_sincronismo/2
-    tr_mode: qtgui.TRIG_MODE_NORM
-    tr_slope: qtgui.TRIG_SLOPE_POS
-    tr_tag: '""'
-    type: float
-    update_time: '0.10'
-    width1: '1'
-    width10: '1'
-    width2: '1'
-    width3: '1'
-    width4: '1'
-    width5: '1'
-    width6: '1'
-    width7: '1'
-    width8: '1'
-    width9: '1'
-    ylabel: Fase
-    ymax: np.pi
-    ymin: -np.pi
-    yunit: '""'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [1712, 2128.0]
+    coordinate: [1720, 2012.0]
     rotation: 0
     state: true
 - name: qtgui_time_sink_x_2
@@ -1499,7 +1402,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1704, 2248.0]
+    coordinate: [1720, 2228.0]
     rotation: 0
     state: true
 - name: virtual_sink_0
@@ -1564,7 +1467,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1880, 612.0]
+    coordinate: [1856, 652.0]
     rotation: 0
     state: true
 - name: virtual_sink_4
@@ -1590,7 +1493,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [912, 308.0]
+    coordinate: [920, 300.0]
     rotation: 0
     state: true
 - name: virtual_sink_5_0
@@ -1720,7 +1623,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1384, 2612.0]
+    coordinate: [1400, 2580.0]
     rotation: 0
     state: true
 - name: virtual_source_6
@@ -1733,7 +1636,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1392, 2476.0]
+    coordinate: [1376, 2452.0]
     rotation: 0
     state: true
 - name: virtual_source_6_0
@@ -1767,12 +1670,12 @@ blocks:
   parameters:
     alias: ''
     comment: ''
-    stream_id: entrada_rx
+    stream_id: post_gate_rx
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1392, 2556.0]
+    coordinate: [1392, 2508.0]
     rotation: 0
     state: true
 
@@ -1780,9 +1683,8 @@ connections:
 - [analog_sig_source_x_0, '0', blocks_multiply_xx_0, '1']
 - [analog_sig_source_x_0_0, '0', blocks_multiply_conjugate_cc_0, '1']
 - [blocks_add_xx_0, '0', virtual_sink_1_0, '0']
-- [blocks_complex_to_magphase_0, '0', blocks_null_sink_0, '0']
 - [blocks_complex_to_magphase_0, '0', qtgui_time_sink_x_0, '0']
-- [blocks_complex_to_magphase_0, '1', qtgui_time_sink_x_0_0, '0']
+- [blocks_complex_to_magphase_0, '1', blocks_null_sink_0, '0']
 - [blocks_complex_to_real_0, '0', virtual_sink_3, '0']
 - [blocks_complex_to_real_0_0, '0', virtual_sink_1, '0']
 - [blocks_delay_0, '0', blocks_multiply_const_vxx_0, '0']
@@ -1807,7 +1709,6 @@ connections:
 - [blocks_vector_source_x_1, '0', virtual_sink_6, '0']
 - [blocks_vector_source_x_1_0, '0', blocks_repeat_1, '0']
 - [blocks_vector_source_x_1_0, '0', qtgui_time_sink_x_0, '1']
-- [blocks_vector_source_x_1_0, '0', qtgui_time_sink_x_0_0, '1']
 - [channels_channel_model_0, '0', blocks_complex_to_real_0, '0']
 - [channels_channel_model_0_0, '0', blocks_complex_to_real_0_0, '0']
 - [fir_filter_xxx_0, '0', virtual_sink_2, '0']
